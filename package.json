@@ -1,0 +1,20 @@
+{
+  "name": "gulp-belch",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "name": "Chris Montgomery"
+  },
+  "contributors": [
+    {
+      "name": "Chris Montgomery"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "belch": "0.0.3",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {}
+}
