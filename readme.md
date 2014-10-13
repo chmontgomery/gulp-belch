@@ -16,8 +16,7 @@ var belch = require('gulp-belch');
 
 gulp.task('build', function() {
   return gulp.src('*.js')
-    .pipe(concat())
-    .pipe(gulp.dest(dest))
+    .pipe(gulp.dest('./public'))
     .pipe(belch());
 });
 ```
