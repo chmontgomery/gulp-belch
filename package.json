@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "belch": "0.0.3",
+    "belch": "^1.0.0",
     "through2": "^0.6.3"
   },
   "devDependencies": {}

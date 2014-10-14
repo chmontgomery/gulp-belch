@@ -12,10 +12,13 @@ npm install --save-dev gulp-belch
 
 ```bash
 //gulpfile.js
+var gulp = require('gulp');
+var concat = require('gulp-concat');
 var belch = require('gulp-belch');
 
 gulp.task('build', function() {
   return gulp.src('*.js')
+    .pipe(concat())
     .pipe(gulp.dest('./public'))
     .pipe(belch());
 });
